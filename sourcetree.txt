@@ -1,0 +1,114 @@
+this is the real proyect.
+but I am correcting security errors, it is serving me as a machine, hackthebox style
+.
+├── dist
+│   ├── app.js
+│   ├── config
+│   │   ├── mongoose.js
+│   │   └── passport.js
+│   ├── config.js
+│   ├── controllers
+│   │   ├── auth.controller.js
+│   │   ├── home.controller.js
+│   │   ├── image.controller.js
+│   │   └── index.js
+│   ├── helpers
+│   │   ├── comments.js
+│   │   ├── images.js
+│   │   ├── libs.js
+│   │   ├── sidebar.js
+│   │   └── stats.js
+│   ├── helpers.js
+│   ├── index.js
+│   ├── models
+│   │   ├── comment.js
+│   │   ├── image.js
+│   │   ├── index.js
+│   │   └── user.js
+│   ├── public
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   ├── images
+│   │   └── js
+│   │       └── scripts.js
+│   ├── routes
+│   │   ├── auth.routes.js
+│   │   └── index.routes.js
+│   └── views
+│       ├── authentication
+│       │   ├── profile.hbs
+│       │   ├── signin.hbs
+│       │   └── signup.hbs
+│       ├── image.hbs
+│       ├── index.hbs
+│       ├── layouts
+│       │   ├── main.hbs
+│       │   └── nostats.hbs
+│       └── partials
+│           ├── comments.hbs
+│           ├── footer.hbs
+│           ├── head.hbs
+│           ├── navigation.hbs
+│           ├── popular.hbs
+│           └── stats.hbs
+├── docker-compose.yml
+├── Dockerfile
+├── docs
+│   └── screenshot1.png
+├── package.json
+├── README.md
+├── src
+│   ├── app.js
+│   ├── config
+│   │   ├── mongoose.js
+│   │   └── passport.js
+│   ├── config.js
+│   ├── controllers
+│   │   ├── auth.controller.js
+│   │   ├── home.controller.js
+│   │   ├── image.controller.js
+│   │   └── index.js
+│   ├── helpers
+│   │   ├── comments.js
+│   │   ├── images.js
+│   │   ├── libs.js
+│   │   ├── sidebar.js
+│   │   └── stats.js
+│   ├── helpers.js
+│   ├── index.js
+│   ├── models
+│   │   ├── comment.js
+│   │   ├── image.js
+│   │   ├── index.js
+│   │   └── user.js
+│   ├── public
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   ├── images
+│   │   └── js
+│   │       └── scripts.js
+│   ├── routes
+│   │   ├── auth.routes.js
+│   │   └── index.routes.js
+│   └── views
+│       ├── authentication
+│       │   ├── profile.hbs
+│       │   ├── signin.hbs
+│       │   └── signup.hbs
+│       ├── image.hbs
+│       ├── index.hbs
+│       ├── layouts
+│       │   ├── main.hbs
+│       │   └── nostats.hbs
+│       └── partials
+│           ├── comments.hbs
+│           ├── footer.hbs
+│           ├── head.hbs
+│           ├── navigation.hbs
+│           ├── popular.hbs
+│           └── stats.hbs
+├── tree.txt [ without node modules, package-lock.json ]
+└── uploads
+    ├── 000blec.jpeg
+    └── 0rbppkb.png
+
