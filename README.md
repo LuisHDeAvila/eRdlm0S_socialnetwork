@@ -1,3 +1,5 @@
 # eRdlm0S_socialnetwork
-# hecho con la idea de centralizar temas y obtener la mayor cantidad de aportes de calidad, y siempre como fin el desarrollo de individuos intelectuales.
-# motivado por mi pasion por el progreso, el desarrollo sostenible, e innovador.
+#### This social network is an application model to strengthen the execution in production of applications such as microservices, nodejs has been a good bet as a starting point, now it continues to analyze and meet the requirements to join RHEL.
+
+
+<3 redhat!
