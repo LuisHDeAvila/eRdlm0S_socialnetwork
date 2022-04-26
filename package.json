@@ -1,0 +1,54 @@
+{
+  "name": "pro-socialnetwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/ --exec babel-node",
+    "start": "node dist/index.js",
+    "compile": "babel src -d dist",
+    "copyfiles": "ncp src/views dist/views && ncp src/public dist/public",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run compile && npm run copyfiles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisHDeAvila/pro-socialnetwork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisHDeAvila/pro-socialnetwork/issues"
+  },
+  "homepage": "https://github.com/LuisHDeAvila/pro-socialnetwork#readme",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.0",
+    "express-handlebars": "^6.0.5",
+    "express-session": "^1.17.2",
+    "fs-extra": "^10.1.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.1",
+    "mongoose-lean-virtuals": "^0.9.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "ncp": "^2.0.0",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  }
+}
